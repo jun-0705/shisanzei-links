@@ -8,15 +8,69 @@
     body {
       font-family: sans-serif;
       margin: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
     }
+
     h1 {
       font-size: 1.8em;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       line-height: 1.4;
     }
+
     .updated-date {
       font-size: 0.9em;
       color: #777;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li a {
+      display: block;
+      padding: 8px 12px;
+      background-color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #0077cc;
+      border: 1px solid #ddd;
+      transition: background-color 0.2s, box-shadow 0.2s;
+    }
+
+    li a:hover {
+      background-color: #eef6ff;
+      box-shadow: 0 0 5px rgba(0, 119, 204, 0.2);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 10px;
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
     }
   </style>
 </head>
@@ -26,6 +80,47 @@
     資産税関連リンク集<br>
     <span class="updated-date">(更新日: 2025-05-19)</span>
   </h1>
+
+  <h2>[税務データベース]</h2>
+  <ul>
+    <li><a href="https://www.zeiken.co.jp/" target="_blank">税務研究会（税務通信）</a></li>
+    <li><a href="https://www.seibunsha-digitals.jp/login" target="_blank">Web版サービス（清文社）</a></li>
+    <li><a href="https://www.sn-hoki.co.jp/lc/app/pc/login" target="_blank">LEGAL CONNECTION（新日本法規）</a></li>
+    <li><a href="https://zei-ptl.d1-law.com/" target="_blank">税務・会計データベース（第一法規）</a></li>
+    <li><a href="https://app6.tains.org/Login?ReturnUrl=%2FSearch" target="_blank">TAINS（日税連税法データベース）</a></li>
+    <li><a href="https://elaws.e-gov.go.jp/" target="_blank">e-Gov法令検索</a></li>
+  </ul>
+
+  <h2>[土地評価]</h2>
+  <ul>
+    <li><a href="https://www.rosenka.nta.go.jp/" target="_blank">路線価【最新年度分】：路線価図・評価倍率表（国税庁）</a></li>
+    <li><a href="http://rosenka.jp/" target="_blank">路線価【最新年度分～平成18年分】：路線価図保管庫（東京税理士ブログ）</a></li>
+    <li><a href="https://ndlsearch.ndl.go.jp/rnavi/business/post_102052" target="_blank">路線価【平成17年分～昭和30年分】：国立国会図書館</a></li>
+    <li><a href="https://www.google.com/maps" target="_blank">Google Maps（Google）</a></li>
+    <li><a href="https://app.zip-site.com/txac/app/index.htm" target="_blank">ZENRIN GISパッケージ 税理士（ゼンリン）</a></li>
+    <li><a href="https://www2.wagmap.jp/matsuyamacity/Portal" target="_blank">e～よ まちナビ（松山市役所）</a></li>
+    <li><a href="http://www.chikamap.jp/" target="_blank">全国地価マップ（資産評価システム研究センター）</a></li>
+    <li><a href="https://www.pref.ehime.jp/h40800/2643/toshikeikaku/johomap.html" target="_blank">愛媛県都市計画情報マップ</a></li>
+    <li><a href="https://www.sabo.pref.ehime.jp/map/" target="_blank">愛媛県土砂災害情報マップ</a></li>
+    <li><a href="https://www.reinfolib.mlit.go.jp/" target="_blank">不動産情報ライブラリー（国土交通省）</a></li>
+    <li><a href="https://map.maff.go.jp/" target="_blank">ｅＭＡＦＦ農地ナビ（農林水産省）</a></li>
+    <li><a href="https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/xy2blf.html" target="_blank">公図のXY座標を緯度経度へ換算</a></li>
+    <li><a href="https://maps.gsi.go.jp/help/intro/looklist/" target="_blank">地理院地図の写真一覧（国土地理院）</a></li>
+    <li><a href="https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_08.html" target="_blank">固定資産評価基準（総務省）</a></li>
+    <li><a href="https://www.city.matsuyama.ehime.jp/kurashi/kurashi/jutaku/tatemono/maibun/m_houzouchi_ichiran.html" target="_blank">埋蔵文化財包蔵地図（松山市役所）</a></li>
+  </ul>
+
+  <h2>[取引相場のない株式の評価]</h2>
+  <ul>
+    <li><a href="https://www.nta.go.jp/law/tsutatsu/kobetsu/hyoka/r06/2406/index.htm" target="_blank">令和6年 類似業種比準価額の業種目等（国税庁）</a></li>
+    <li><a href="https://www.e-stat.go.jp/classifications/terms/10" target="_blank">日本標準産業分類（総務省統計局）</a></li>
+    <li><a href="https://www.soumu.go.jp/toukei_toukatsu/index/seido/sangyo/R05koumokusetsumei.html" target="_blank">分類項目名と内容例示</a></li>
+    <li><a href="https://www.nta.go.jp/law/joho-zeikaishaku/hyoka/170613/pdf/05.pdf" target="_blank">分類項目と業種目との対比表</a></li>
+    <li><a href="https://finance.yahoo.co.jp/" target="_blank">Yahoo!ファイナンス</a></li>
+    <li><a href="https://toushin-lib.fwg.ne.jp/FdsWeb/FDST000000" target="_blank">投信総合検索ライブラリー</a></li>
+    <li><a href="https://www.jpx.co.jp/markets/statistics-equities/price/" target="_blank">東京証券取引所 月間相場表</a></li>
+    <li><a href="https://www.plus-web.co.jp/past_price/" target="_blank">ゴルフ会員権 過去相場（ゴルフホットライン）</a></li>
+  </ul>
 
 </body>
 </html>
